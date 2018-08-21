@@ -1,12 +1,16 @@
 # Walter
 
-Do not forget to use
+Do not forget to following command to be able to run your code from anywhere
 
 ```ruby
-rake install
+$ rake install
+```
+If you want to release it to rubygems, just run
+
+```ruby
+$ rake release
 ```
 
-to be able to run your code from anywhere
 
 ## Installation
 
