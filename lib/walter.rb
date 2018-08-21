@@ -5,9 +5,13 @@ require 'thor'
 module Walter
  class CLI < Thor
 
-   desc "hello world", "my first cli yay"
-   def hello
-     puts "Hello world"
+   desc "hello [name]", "say my name"
+   def hello(name)
+     if name == "Heisenberg"
+       puts "you are goddman right"
+     else
+       puts "Your are #{name} isn't it?"
+     end
    end
 
  end
